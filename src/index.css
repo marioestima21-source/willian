@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define o Poppins como a fonte padrão do site */
+  --font-sans: "Poppins", sans-serif;
+
+  --color-tiktok-pink: #FE2C55;
+  --color-tiktok-cyan: #25F4EE;
+  
+  --animate-pulse-slow: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 0.5; }
+  }
+}
+
+@layer base {
+  body {
+    /* Aplicamos o antialiased para a fonte ficar mais nítida no Dark Mode */
+    @apply bg-black text-white font-sans antialiased;
+  }
+}
