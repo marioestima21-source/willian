@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
 
         {/* Desktop Navigation (igual ao anterior) */}
         <div className="hidden md:flex items-center gap-8">
-          {NAV_LINKS.map((link, index) => (
+          {NAV_LINKS.map((link) => (
             <a
               key={link.label}
               href={link.href}
