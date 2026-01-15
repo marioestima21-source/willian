@@ -1,19 +1,18 @@
  import React from 'react';
 import { motion } from 'framer-motion';
 import { Send } from 'lucide-react';
-import { SiTiktok, SiInstagram, SiFacebook, SiYoutube, SiWhatsapp } from 'react-icons/si';
+import { SiTiktok, SiInstagram, SiFacebook, SiWhatsapp } from 'react-icons/si';
 
 export const ContactForm: React.FC = () => {
   const socialLinks = [
-    { icon: <SiTiktok />, href: "#", color: "hover:bg-[#FE2C55]", label: "TikTok" },
-    { icon: <SiInstagram />, href: "#", color: "hover:bg-[#E4405F]", label: "Instagram" },
-    { icon: <SiFacebook />, href: "#", color: "hover:bg-[#1877F2]", label: "Facebook" },
-    { icon: <SiYoutube />, href: "#", color: "hover:bg-[#FF0000]", label: "YouTube" },
-    { icon: <SiWhatsapp />, href: "#", color: "hover:bg-[#25D366]", label: "WhatsApp" },
+    { icon: <SiTiktok />, href: "https://tiktok.com/@willian07", color: "hover:bg-[#FE2C55]", label: "TikTok" },
+    { icon: <SiInstagram />, href: "https://instagram.com/willian07", color: "hover:bg-[#E4405F]", label: "Instagram" },
+    { icon: <SiFacebook />, href: "https://facebook.com/u9839828392", color: "hover:bg-[#1877F2]", label: "Facebook" },
+    { icon: <SiWhatsapp />, href: "https://wa.me/+244923830659", color: "hover:bg-[#25D366]", label: "WhatsApp" },
   ];
 
   return (
-    <section id="contact" className="py-24 bg-black relative overflow-hidden">
+    <section id="contact" className="py-10 bg-black relative overflow-hidden">
       {/* Glow de fundo para destaque */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[40%] bg-tiktok-pink/10 blur-[120px] rounded-full" />
 

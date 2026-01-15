@@ -1,14 +1,14 @@
 import type { Stat, Video, SocialLink } from '../types/index';
 
 export const STATS: Stat[] = [
-  { id: 1, label: "Seguidores", value: "500K", numericValue: 500, suffix: "K+" },
-  { id: 2, label: "Likes", value: "10M", numericValue: 10, suffix: "M" },
-  { id: 3, label: "Views", value: "50M", numericValue: 50, suffix: "M+" },
+  { id: 1, label: "Seguidores", value: "5K", numericValue: 5180, suffix: "K" },
+  { id: 2, label: "Likes", value: "10M", numericValue: 5460, suffix: "K" },
+  { id: 3, label: "Views", value: "50M", numericValue: 3000, suffix: "K" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { platform: 'tiktok', url: 'https://tiktok.com/@criador' },
-  { platform: 'instagram', url: 'https://instagram.com/criador' },
+  { platform: 'tiktok', url: 'https://tiktok.com/@willian07' },
+  { platform: 'instagram', url: 'https://instagram.com/willian07' },
 ];
 
 // Adicionando a constante de vídeos para resolver o aviso do TS e popular o VideoGrid

@@ -46,7 +46,7 @@ const StatCard = ({ value, label, suffix }: { value: number; label: string; suff
 
 export const StatsCounter: React.FC = () => {
   return (
-    <section className="py-24 bg-black relative">
+    <section className="py-10 bg-black relative">
       {/* Detalhe visual de fundo */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-px bg-gradient-to-r from-transparent via-zinc-800 to-transparent" />
       

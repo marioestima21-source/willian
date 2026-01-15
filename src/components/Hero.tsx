@@ -29,14 +29,14 @@ export const Hero: React.FC = () => {
                     </span>
 
                     <h1 className="text-5xl md:text-8xl font-black text-white mb-6 tracking-tighter">
-                        TRANSFORMANDO <br />
+                        TORNANDO <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-tiktok-cyan via-white to-tiktok-pink">
-                            IDEIAS EM VIRAL
+                            IDEIAS EM REALIDADE
                         </span>
                     </h1>
 
                     <p className="max-w-2xl mx-auto text-zinc-400 text-lg md:text-xl mb-10 leading-relaxed">
-                        Explora o universo de conteúdos criativos, tutoriais e o dia a dia de quem vive a cultura digital no TikTok.
+                        Explora o universo de conteúdos criativos do Willian07
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -71,7 +71,7 @@ export const Hero: React.FC = () => {
                 transition={{ delay: 1.5, duration: 1 }}
                 className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
             >
-                <div className="w-[1px] h-12 bg-gradient-to-b from-tiktok-cyan to-transparent" />
+
             </motion.div>
         </section>
     );
